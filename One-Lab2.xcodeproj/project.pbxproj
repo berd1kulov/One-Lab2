@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A8E0D03540689C5E3EE0EA3C /* Pods_One_Lab2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAFCD41A3B3BB5E669319789 /* Pods_One_Lab2.framework */; };
 		C055E2122801B5A000BBBBE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C055E2112801B5A000BBBBE5 /* AppDelegate.swift */; };
 		C055E2142801B5A000BBBBE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C055E2132801B5A000BBBBE5 /* SceneDelegate.swift */; };
 		C055E2162801B5A000BBBBE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C055E2152801B5A000BBBBE5 /* ViewController.swift */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2092EF336323A714EAF2050D /* Pods-One-Lab2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-One-Lab2.release.xcconfig"; path = "Target Support Files/Pods-One-Lab2/Pods-One-Lab2.release.xcconfig"; sourceTree = "<group>"; };
+		B4B989939B9421697FD9A316 /* Pods-One-Lab2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-One-Lab2.debug.xcconfig"; path = "Target Support Files/Pods-One-Lab2/Pods-One-Lab2.debug.xcconfig"; sourceTree = "<group>"; };
 		C055E20E2801B5A000BBBBE5 /* One-Lab2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "One-Lab2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C055E2112801B5A000BBBBE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C055E2132801B5A000BBBBE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		C055E21A2801B5A200BBBBE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C055E21D2801B5A200BBBBE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C055E21F2801B5A200BBBBE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAFCD41A3B3BB5E669319789 /* Pods_One_Lab2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_One_Lab2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8E0D03540689C5E3EE0EA3C /* Pods_One_Lab2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F211BB678950C15FC7E18CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAFCD41A3B3BB5E669319789 /* Pods_One_Lab2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF25550FAF1E2F3EB310169B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4B989939B9421697FD9A316 /* Pods-One-Lab2.debug.xcconfig */,
+				2092EF336323A714EAF2050D /* Pods-One-Lab2.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C055E2052801B5A000BBBBE5 = {
 			isa = PBXGroup;
 			children = (
 				C055E2102801B5A000BBBBE5 /* One-Lab2 */,
 				C055E20F2801B5A000BBBBE5 /* Products */,
+				BF25550FAF1E2F3EB310169B /* Pods */,
+				2F211BB678950C15FC7E18CA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,9 +99,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C055E2222801B5A200BBBBE5 /* Build configuration list for PBXNativeTarget "One-Lab2" */;
 			buildPhases = (
+				CE2F80CBDC412CE5A7F481BD /* [CP] Check Pods Manifest.lock */,
 				C055E20A2801B5A000BBBBE5 /* Sources */,
 				C055E20B2801B5A000BBBBE5 /* Frameworks */,
 				C055E20C2801B5A000BBBBE5 /* Resources */,
+				606F836A3AF9F80C9A56E8E5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +159,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		606F836A3AF9F80C9A56E8E5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-One-Lab2/Pods-One-Lab2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-One-Lab2/Pods-One-Lab2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-One-Lab2/Pods-One-Lab2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE2F80CBDC412CE5A7F481BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-One-Lab2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C055E20A2801B5A000BBBBE5 /* Sources */ = {
@@ -216,7 +285,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +339,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,6 +351,7 @@
 		};
 		C055E2232801B5A200BBBBE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4B989939B9421697FD9A316 /* Pods-One-Lab2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,6 +365,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +381,7 @@
 		};
 		C055E2242801B5A200BBBBE5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2092EF336323A714EAF2050D /* Pods-One-Lab2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -323,6 +395,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
